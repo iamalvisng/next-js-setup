@@ -31,6 +31,16 @@ module.exports = {
     'react/jsx-filename-extension': [1, { extensions: ['.tsx', '.ts'] }],
     'react/jsx-props-no-spreading': ['error', { custom: 'ignore' }],
     '@typescript-eslint/no-unused-vars': ['error'],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
   },
   settings: {
     react: {
