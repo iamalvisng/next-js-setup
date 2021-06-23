@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <div>
-      <h1>Hello world</h1>
+      <h1>Welcome to demo App!</h1>
     </div>
   );
 }
