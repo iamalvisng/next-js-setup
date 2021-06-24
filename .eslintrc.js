@@ -25,6 +25,7 @@ module.exports = {
   plugins: ['react', '@typescript-eslint'],
   rules: {
     'jsx-a11y/label-has-associated-control': 'off',
+    'react/require-default-props': 'off',
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',

@@ -9,9 +9,7 @@ import Home from '../../../pages/index';
 
 function getState(obj = {}) {
   return {
-    counter: {
-      value: 0,
-    },
+    counter: { value: 0 },
     ...obj,
   };
 }
